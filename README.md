@@ -16,7 +16,7 @@ $ npm install -g five-color-map
 ```
 then
 ```
-$ five-color-map data.geojson > colored-data.geojson
+$ fivecolormap data.geojson > colored-data.geojson
 ```
 
 ## usage
