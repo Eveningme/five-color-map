@@ -1,6 +1,6 @@
 # five-color-map
 
-Color a GeoJSON FeatureCollection so that contiguous areas have different fills.
+Color a GeoJSON FeatureCollection so that contiguous areas have different fills. Five colors [are all you'll need](https://en.wikipedia.org/wiki/Five_color_theorem).
 
 ## install
 
