@@ -1,6 +1,6 @@
 {
   "name": "five-color-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Color a GeoJSON FeatureCollection so that contiguous areas have different fills",
   "main": "index.js",
   "scripts": {
@@ -12,12 +12,12 @@
     "map"
   ],
   "author": "Aaron Dennis <aaronpdennis@gmail.com> (http://aarondennis.org)",
-  "bin" : {
+  "bin": {
     "fivecolormap": "./bin/fivecolormap"
   },
-  "repository" : { 
-    "type" : "git", 
-    "url" : "https://github.com/aaronpdennis/five-color-map.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaronpdennis/five-color-map.git"
   },
   "license": "ISC",
   "dependencies": {
