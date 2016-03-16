@@ -1,6 +1,6 @@
 {
   "name": "five-color-map",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Color a GeoJSON FeatureCollection so that contiguous areas have different fills",
   "main": "index.js",
   "scripts": {
