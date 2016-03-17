@@ -1,6 +1,6 @@
 # five-color-map
 
-Color a GeoJSON FeatureCollection so that contiguous areas have different fills. Five colors [are all you'll need](https://en.wikipedia.org/wiki/Five_color_theorem).
+Color a GeoJSON FeatureCollection so that bordering areas never have the same fills. Five colors [are all you'll need](https://en.wikipedia.org/wiki/Five_color_theorem).
 
 ## example
 
@@ -8,8 +8,10 @@ Color a GeoJSON FeatureCollection so that contiguous areas have different fills.
 
 ## install
 
+install with [npm](https://www.npmjs.com/):
+
 ```
-npm install --save five-color-map
+$ npm install --save five-color-map
 ```
 
 ## command line
