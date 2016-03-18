@@ -22,7 +22,9 @@
   "license": "ISC",
   "dependencies": {
     "d3": "^3.5.16",
-    "geojsonhint": "^1.2.0",
     "topojson": "^1.6.24"
+  },
+  "devDependencies": {
+    "geojsonhint": "^1.2.0"
   }
 }

@@ -10,6 +10,13 @@ module.exports = function(geojson) {
     return d;
   });
 
+  geojson.features.map(function(d,i) {
+    if (d.properties.id === undefined) { d.properties.id = i + 1; }
+    return d;
+  });
+
+  var original = JSON.parse(JSON.stringify(geojson));
+
   function propertyTransform(feature) {
     return feature.properties;
   }
@@ -67,6 +74,19 @@ module.exports = function(geojson) {
 
   }
 
-  return topojson.feature(topology, topology.objects.collection);
+  var colored = topojson.feature(topology, topology.objects.collection);
 
+  colored.features.map(function(d) {
+    var id = d.properties.id,
+        fill = d.properties.fill;
+    //console.log(id, fill);
+    original.features.map(function(p) {
+      if (p.properties.id === id) {
+        p.properties.fill = fill;
+      }
+      return p;
+    });
+  });
+
+  return original;
 }
