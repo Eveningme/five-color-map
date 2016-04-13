@@ -38,4 +38,4 @@ Each feature in `coloredGeoJSON.features` now has a property `fill` with one of 
 
 ## caveat
 
-At least one of your features must have less than 5 neighbors with adjacent sides. This won't work with a map of hexagons.
+At least one of your features must have less than 5 neighbors with adjacent sides. This won't work with a hexagonal grid.
